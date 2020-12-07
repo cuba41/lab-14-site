@@ -1,6 +1,15 @@
 /* universal properties */
 body, html {
     height: 100%;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    /* font-family rule copied from Google Fonts */
+    font-weight: 300;
+}
+/* use Major Mono Display for all headings h1—h6 */
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Major Mono Display', monospace;
+  /* font-family rule copied from Google Fonts */
 }
 
 .hero-image {
